@@ -4,7 +4,6 @@ player = False
 cpu_score = 0
 player_score = 0
 while True:
-    print("\nPara sair do jogo clique em Ctrl+C")
     player = input("Rock, Paper or  Scissors?").capitalize()
     computer = random.choice(choices)
     if player not in ["Rock", "Paper", "Scissors", "End"]:
