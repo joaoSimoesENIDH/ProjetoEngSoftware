@@ -4,6 +4,7 @@ player = False
 cpu_score = 0
 player_score = 0
 while True:
+    print("\nBem vindo ao Sol Nautico insira 5 Euros para jogar Rock,Paper,Scissors o melhor e mais justo simulador deste belissimo jogo!!")
     print("\nPara sair do jogo escreva End")
     player = input("Rock, Paper or  Scissors?").capitalize()
     computer = random.choice(choices)
