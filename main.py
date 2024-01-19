@@ -6,6 +6,9 @@ player_score = 0
 while True:
     player = input("Rock, Paper or  Scissors?").capitalize()
     computer = random.choice(choices)
+    if player not in ["Rock", "Paper", "Scissors", "End"]:
+        print("Not a correct option. Please choose Rock, Paper, Scissors, or End.")
+        continue  # Restart the loop if the option is not valid
     ## Conditions of Rock,Paper and Scissors
     if player == computer:
         print("Tie!")
